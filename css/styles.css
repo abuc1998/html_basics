@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua|Nanum+Gothic');
+body {
+    margin: 0;
+}
+
+ul {
+    background: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    padding: 4px;
+    font-family: 'Modern Antiqua', cursive;
+
+
+}
+.navbar a{
+    text-decoration: none;
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.navbar a:hover{
+    background: blue;
+    color: #ff4932;
+    border-bottom: 2px solid orange;
+    font-family: 'Nanum Gothic', sans-serif;
+    transition:background 0.8s,color 0.8s, border-bottom 1s;
+    transition-timing-function: ease-in-out;
+
+}
+.welcome{
+    background: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}.welcome h1{
+    margin: 0;
+ }
+ .welcome a{
+     display: block;
+     text-decoration: none;
+     color: olivedrab;
+     font-size: 1.4em;
+ }
